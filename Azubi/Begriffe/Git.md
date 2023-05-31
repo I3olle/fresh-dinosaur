@@ -1,10 +1,10 @@
 ---
 share: true  
 --- 
-## Git
+# Git
 Git ist ein Versionskontrollsystem, das entwickelt wurde, um die Verwaltung von Änderungen in Softwareprojekten zu erleichtern. Es ermöglicht Entwicklern, ihre Arbeit zu verfolgen, Änderungen zu verwalten und effektiv mit anderen zusammenzuarbeiten.
 
-### ELI5
+## ELI5
 Stell dir vor, du malst ein Bild auf einem Blatt Papier. Aber du möchtest nicht nur das fertige Bild behalten, sondern auch den gesamten Entstehungsprozess aufzeichnen, um später Änderungen vornehmen oder auf ältere Versionen zurückgreifen zu können. Hier kommt Git ins Spiel.
 
 Git ist wie ein magisches Tagebuch für deine Arbeit an einem Projekt. Jedes Mal, wenn du Änderungen an deinem Projekt vornimmst, schreibst du sie in das Tagebuch auf. Git speichert jede Version deiner Dateien und speichert alle Änderungen, die du machst.
@@ -23,6 +23,8 @@ Versionierung bezieht sich auf die Verwaltung und Nachverfolgung von Änderungen
 ## Branches
 Branches sind separate Linien der Entwicklung in einem Git-Repository. Sie erlauben es Entwicklern, unabhängig voneinander an unterschiedlichen Funktionen oder Aufgaben zu arbeiten. Jeder Branch hat eine eigene Kopie des Codes, auf der Änderungen gemacht werden können, ohne die Hauptentwicklungslinie zu beeinflussen.
 
+### Beispiel
+![Example](https://ardalis.com/img/image-git-graph.png)
 
 ## Merge
 Merge ist der Prozess, bei dem Änderungen aus einem Branch in einen anderen Branch oder in den Hauptentwicklungszweig (oft als "master" oder "main" bezeichnet) überführt werden. Es kombiniert die Änderungen und integriert sie nahtlos, so dass der Code auf dem aktuellen Stand ist.
