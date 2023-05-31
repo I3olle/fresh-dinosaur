@@ -4,11 +4,15 @@ share: true
 # Cloud
 Die Cloud ist ein Begriff, der sich auf eine virtuelle Umgebung bezieht, in der Ressourcen und Dienste über das Internet bereitgestellt werden. Statt lokale Server und Infrastruktur zu verwenden, können Unternehmen und Benutzer die Cloud nutzen, um auf leistungsstarke Rechenkapazitäten, Speicherplatz, Datenbanken, Netzwerke und viele andere Dienste zuzugreifen. Die Cloud bietet Skalierbarkeit, Flexibilität und die Möglichkeit, Ressourcen nach Bedarf zu nutzen, ohne in teure Hardware investieren zu müssen.
 
-> [!info] Info
+
+> [!NOTE] Info
 > Da ich fast ausschließlich mit der AWS Cloud arbeite, werden sich auch die meisten Cloud Themen auf die AWS Cloud beziehen
+
+
 
 ## AWS Accounts
 AWS Accounts sind Konten, die von Amazon Web Services (AWS) bereitgestellt werden. Mit einem AWS Account können Benutzer auf die verschiedenen Dienste und Ressourcen von AWS zugreifen. Jeder AWS Account hat eine eindeutige Kennung und kann verwendet werden, um Ressourcen in der AWS-Cloud zu erstellen, zu verwalten und darauf zuzugreifen.
+
 
 ## VPC
 VPC steht für Virtual Private Cloud und ist ein Dienst von AWS, der es Benutzern ermöglicht, eine isolierte, virtuelle Netzwerkumgebung in der AWS-Cloud zu erstellen. Eine VPC fungiert als abgeschottetes Netzwerk, in dem Benutzer ihre Ressourcen betreiben können. Es erlaubt die Kontrolle über das Netzwerkdesign, die IP-Adressierung, die Subnetze und die Netzwerksicherheit. Mit einer VPC können Benutzer ihre Infrastruktur in der Cloud maßgeschneidert konfigurieren und verwalten, während sie gleichzeitig eine isolierte Umgebung erhalten, um ihre Anwendungen und Daten zu schützen.
