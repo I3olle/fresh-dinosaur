@@ -5,9 +5,7 @@ share: true
 Die Cloud ist ein Begriff, der sich auf eine virtuelle Umgebung bezieht, in der Ressourcen und Dienste über das Internet bereitgestellt werden. Statt lokale Server und Infrastruktur zu verwenden, können Unternehmen und Benutzer die Cloud nutzen, um auf leistungsstarke Rechenkapazitäten, Speicherplatz, Datenbanken, Netzwerke und viele andere Dienste zuzugreifen. Die Cloud bietet Skalierbarkeit, Flexibilität und die Möglichkeit, Ressourcen nach Bedarf zu nutzen, ohne in teure Hardware investieren zu müssen.
 
 {% note %}
-
 **Note:** Da ich fast ausschließlich mit der AWS Cloud arbeite, werden sich auch die meisten Cloud Themen auf die AWS Cloud beziehen
-
 {% endnote %}
 
 
