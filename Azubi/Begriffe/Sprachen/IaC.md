@@ -27,3 +27,30 @@ Terraform unterstützt verschiedene Cloud-Plattformen wie Amazon Web Services (A
 Wenn du Änderungen an deiner Infrastruktur vornehmen möchtest, änderst du einfach die Anleitung in Terraform. Es überprüft dann, welche Teile aktualisiert werden müssen und passt die Infrastruktur entsprechend an. So kannst du deine Infrastruktur einfach verwalten, ohne alles von Grund auf neu zu erstellen.
 
 Zusammengefasst ist Terraform wie eine Anleitung, die dir sagt, wie du deine Computer-Infrastruktur aufbauen kannst. Du beschreibst, was du brauchst, und Terraform sorgt dafür, dass die Infrastruktur automatisch erstellt wird. Es hilft dir, Zeit zu sparen und deine Infrastruktur effizient zu verwalten, ähnlich wie beim Zusammenbauen eines Lego-Sets mit einer Anleitung.
+
+### Beispiel
+Hier ist ein einfaches Beispiel für Terraform, um eine AWS EC2-Instanz zu erstellen:
+
+```terraform
+# Provider konfigurieren (AWS)
+provider "aws" {
+  region = "us-west-2"
+}
+
+# EC2-Instanz erstellen
+resource "aws_instance" "example" {
+  ami           = "ami-0c94855ba95c71c99"
+  instance_type = "t2.micro"
+}
+
+# Ausgabe der erstellten Instanz
+output "instance_ip" {
+  value = aws_instance.example.public_ip
+}
+```
+
+In diesem Beispiel wird eine AWS EC2-Instanz mit der angegebenen AMI (Amazon Machine Image) und Instanztyp erstellt. Das `provider`-Block definiert die AWS-Region, in der die Instanz erstellt werden soll.
+
+Die `resource`-Block definiert die AWS-Instanz mit dem Namen "example". Sie verwendet die angegebene AMI und den Instanztyp, um die Instanz zu konfigurieren.
+
+Der `output`-Block gibt die öffentliche IP-Adresse der erstellten Instanz aus.
