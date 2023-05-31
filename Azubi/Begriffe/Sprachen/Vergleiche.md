@@ -20,7 +20,7 @@ Der Unterschied zwischen den beiden liegt in der Herangehensweise an die Problem
 Beide Ansätze haben ihre Vor- und Nachteile und werden in verschiedenen Kontexten eingesetzt. Skriptsprachen bieten Flexibilität und Kontrolle, während deklarative Konfigurationssprachen die Abstraktion von Details und die Wiederholbarkeit fördern. Die Wahl zwischen den beiden hängt von den Anforderungen des jeweiligen Szenarios ab.
 
 ## Assembly vs. höhere Programmiersprachen
-> [!info] Info
+> ℹ **Info:** 
 > Hatten wir nicht angesprochen aber ich erinnerte mich an den Vergleich und wollte ihn abspeichern
 
 Stell dir vor, du möchtest ein Haus bauen. Wenn du mit Assembly arbeitest, ist es so, als ob du ein erfahrener Bauunternehmer bist, der jede einzelne Komponente des Hauses genau kennt. Du weißt, wie jedes Rohr verlegt, jede Wand aufgebaut und jede elektrische Leitung verlegt werden muss. Du hast eine sehr detaillierte Anleitung, um das Haus von Grund auf zu bauen. Aber um diese Anleitung zu verstehen und zu befolgen, musst du ein Experte sein und alles im Detail verstehen.

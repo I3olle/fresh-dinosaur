@@ -12,7 +12,7 @@ SQL steht für "Structured Query Language" und ist eine spezielle Sprache, die v
 
 In SQL können Entwickler Abfragen schreiben, um bestimmte Daten aus einer Datenbank abzurufen. Zum Beispiel kann man nach allen Kunden suchen, die in einer bestimmten Stadt leben oder nach Produkten mit einem bestimmten Preis suchen. SQL ermöglicht auch das Hinzufügen, Aktualisieren oder Löschen von Daten in der Datenbank.
 
-> [!info] Info
+> ℹ **Info:** 
 > Datenbanken ist ein riesen Thema für sich. Das sind nur die paar Themen die wir zu dem Thema angeschnitten hatten
 
 
