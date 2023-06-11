@@ -1,6 +1,7 @@
 ---
-share: true  
---- 
+share: true
+---
+
 # Sprachen
 
 ## Einleitung
