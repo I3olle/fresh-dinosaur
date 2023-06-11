@@ -1,6 +1,7 @@
 ---
 share: true
 ---
+
 # Skripte
 
 Skriptsprachen sind Programmiersprachen, die entwickelt wurden, um die Automatisierung von Aufgaben zu erleichtern. Im Gegensatz zu kompilierten Sprachen, die den Code vor der Ausführung in Maschinenanweisungen übersetzen, werden Skriptsprachen zur Laufzeit von einem Interpreter ausgeführt. Dies bedeutet, dass der Code Zeile für Zeile interpretiert und ausgeführt wird, ohne dass ein separater Kompilierungsschritt erforderlich ist.
@@ -47,17 +48,19 @@ Die Quadratzahl von 5 ist 25
 Dieses Beispiel zeigt, wie Funktionen in Python definiert und aufgerufen werden können, wie Variablen verwendet werden und wie Ausgaben auf der Konsole ausgegeben werden. Es ist nur ein kleiner Einblick in die Möglichkeiten von Python, aber es veranschaulicht die grundlegenden Konzepte, die in der Sprache verwendet werden.
 
 ## Bash
-Bash (Bourne Again Shell) ist eine Skriptsprache und eine Unix-Shell. Es ist eine der häufigsten verwendetetn Skriptsprachen in der Linux- und Unix-Welt. Bash-Skripte werden verwendet, um Aufgaben in der Befehlszeile oder in Skriptdateien zu automatisieren und wiederholbare Prozesse auszuführen.
+
+Bash (Bourne Again Shell) ist eine Skriptsprache und eine Unix-Shell. Es ist eine der häufigsten verwendetetn Skriptsprachen in der Linuxund Unix-Welt. Bash-Skripte werden verwendet, um Aufgaben in der Befehlszeile oder in Skriptdateien zu automatisieren und wiederholbare Prozesse auszuführen.
 
 Bash-Skripte sind textbasiert und verwenden eine Kombination aus Shell-Befehlen, Variablenzuweisungen, Kontrollstrukturen und Funktionen. Bash-Skripte können Aufgaben wie das Ausführen von Befehlen, die Verarbeitung von Dateien, das Abrufen von Eingaben vom Benutzer, die Verwaltung von Prozessen und die Automatisierung von Systemaufgaben umfassen.
 
 Die Bash-Skriptsprache bietet eine Reihe von Funktionen und Features, darunter bedingte Anweisungen (if-else), Schleifen (for, while), Funktionen, Variablen und Umgebungsvariablen, Dateiverarbeitung, Pipes und Redirections, sowie die Möglichkeit, externe Befehle und Programme aufzurufen.
 
-Bash-Skripte sind plattformunabhängig und können auf verschiedenen Unix- und Linux-Distributionen sowie auf macOS verwendet werden. Sie sind besonders nützlich für die Automatisierung von Systemverwaltungsaufgaben, das Schreiben von Skripten zur Bereitstellung von Software und das Erstellen von benutzerdefinierten Skripten für spezifische Zwecke.
+Bash-Skripte sind plattformunabhängig und können auf verschiedenen Unixund Linux-Distributionen sowie auf macOS verwendet werden. Sie sind besonders nützlich für die Automatisierung von Systemverwaltungsaufgaben, das Schreiben von Skripten zur Bereitstellung von Software und das Erstellen von benutzerdefinierten Skripten für spezifische Zwecke.
 
-Insgesamt ist Bash eine mächtige und weit verbreitete Skriptsprache, die in der Unix- und Linux-Welt häufig verwendet wird, um Prozesse zu automatisieren und Skripte zur Systemverwaltung zu erstellen.
+Insgesamt ist Bash eine mächtige und weit verbreitete Skriptsprache, die in der Unixund Linux-Welt häufig verwendet wird, um Prozesse zu automatisieren und Skripte zur Systemverwaltung zu erstellen.
 
 ### Beispiel
+
 Hier ist ein einfaches Beispiel für ein Bash-Skript, das eine Datei erstellt und einen Text darin speichert:
 
 ```bash
