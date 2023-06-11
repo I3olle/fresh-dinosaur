@@ -1,11 +1,12 @@
 ---
-share: true  
---- 
-# Vergleiche 
+share: true
+---
+
+# Vergleiche
 
 Manchmal braucht man einfach eine kleine Gegenüberstellung
 
-## Skriptsprache vs. deklarative Konfigurationssprache
+## Skriptsprache vs. Deklarative Konfigurationssprache
 
 Eine Skriptsprache ist eine Programmiersprache, die entwickelt wurde, um die Automatisierung von Aufgaben zu erleichtern. Skriptsprachen werden oft für Aufgaben verwendet, bei denen wiederholte oder alltägliche Abläufe automatisiert werden sollen. Skriptsprachen ermöglichen es Entwicklern, Anweisungen schrittweise auszuführen und logische Operationen durchzuführen.
 
@@ -17,10 +18,11 @@ Eine deklarative Konfigurationssprache wie YAML oder JSON wird hingegen verwende
 
 Der Unterschied zwischen den beiden liegt in der Herangehensweise an die Problemlösung. In einer Skriptsprache schreibst du den Code, um den gewünschten Ablauf zu steuern, während du in einer deklarativen Konfigurationssprache den gewünschten Zustand beschreibst und das System die nötigen Schritte unternimmt, um diesen Zustand zu erreichen.
 
-Beide Ansätze haben ihre Vor- und Nachteile und werden in verschiedenen Kontexten eingesetzt. Skriptsprachen bieten Flexibilität und Kontrolle, während deklarative Konfigurationssprachen die Abstraktion von Details und die Wiederholbarkeit fördern. Die Wahl zwischen den beiden hängt von den Anforderungen des jeweiligen Szenarios ab.
+Beide Ansätze haben ihre Vorund Nachteile und werden in verschiedenen Kontexten eingesetzt. Skriptsprachen bieten Flexibilität und Kontrolle, während deklarative Konfigurationssprachen die Abstraktion von Details und die Wiederholbarkeit fördern. Die Wahl zwischen den beiden hängt von den Anforderungen des jeweiligen Szenarios ab.
 
-## Assembly vs. höhere Programmiersprachen
-> ℹ **Info:** 
+## Assembly vs. Höhere Programmiersprachen
+
+> ℹ **Info:**
 > Hatten wir nicht angesprochen aber ich erinnerte mich an den Vergleich und wollte ihn abspeichern
 
 Stell dir vor, du möchtest ein Haus bauen. Wenn du mit Assembly arbeitest, ist es so, als ob du ein erfahrener Bauunternehmer bist, der jede einzelne Komponente des Hauses genau kennt. Du weißt, wie jedes Rohr verlegt, jede Wand aufgebaut und jede elektrische Leitung verlegt werden muss. Du hast eine sehr detaillierte Anleitung, um das Haus von Grund auf zu bauen. Aber um diese Anleitung zu verstehen und zu befolgen, musst du ein Experte sein und alles im Detail verstehen.
