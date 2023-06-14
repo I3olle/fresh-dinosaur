@@ -125,3 +125,21 @@ Ein API-Call besteht normalerweise aus mehreren Teilen:
 	- Dies sind zusätzliche Informationen, die mit dem API-Call gesendet werden können. Bei einem GET-Request könnten dies zum Beispiel Suchparameter sein, die angeben, welche Daten genau abgerufen werden sollen. Bei einem POST-, PUToder PATCH-Request könnte es sich um die tatsächlichen Daten handeln, die erstellt oder aktualisiert werden sollen.
 
 So könnte beispielsweise ein API-Call an eine Wetter-API aussehen: `GET https://api.weather.com/v3/wx/forecast/daily/5day?apiKey=YOUR_API_KEY&geocode=37.7,-122.4`. Dieser Call verwendet die GET-Methode, um die 5-Tage-Wettervorhersage für die geographischen Koordinaten 37.7,-122.4 (San Francisco) von der `api.weather.com` API abzurufen.
+
+## Cloudfront
+
+Amazon CloudFront ist ein Content-Delivery-Network (CDN) Service, der von Amazon Web Services (AWS) angeboten wird. Ein CDN ist ein Netzwerk verteilter Server, die Inhalte zu Nutzern basierend auf deren geografischer Lage ausliefern.
+
+Die Hauptfunktion von CloudFront ist es, Daten, Videos, Anwendungen und APIs sicher und mit hoher Geschwindigkeit und geringer Latenz an Nutzer weltweit zu liefern. CloudFront ist tief in das AWS-Netzwerk integriert, was es zu einem geeigneten CDN für die Lieferung von Inhalten macht, die in anderen AWS-Diensten gehostet werden, wie z.B. in Amazon S3 (Simple Storage Service), Amazon EC2 (Elastic Compute Cloud) oder AWS Elastic Load Balancing.
+
+Einige der Hauptfunktionen von CloudFront umfassen:
+
+- **Edge Locations**: CloudFront verwendet ein Netzwerk von "Edge Locations" auf der ganzen Welt, um Inhalte näher an die Nutzer zu bringen, was die Latenz reduziert. Wenn ein Nutzer eine Anfrage an einen Inhalt stellt, wird die Anfrage an die nächstgelegene Edge Location weitergeleitet, um eine schnelle Lieferung zu gewährleisten.
+
+- **Caching**: CloudFront speichert Kopien von Inhalten (d.h. es erstellt ein Cache) an diesen Edge Locations, so dass wiederholte Anfragen nach dem gleichen Inhalt schneller bedient werden können, ohne dass die Anfrage jedes Mal bis zum Ursprungsserver zurückgehen muss.
+
+- **Sicherheit**: CloudFront bietet Sicherheitsfunktionen wie SSL/TLS für sichere Netzwerkverbindungen, AWS Shield für DDoS-Schutz und AWS WAF (Web Application Firewall) für den Schutz vor webbasierten Bedrohungen. Darüber hinaus unterstützt es auch die Anforderungen des Identity and Access Management (IAM) von AWS.
+
+- **Integration**: Wie bereits erwähnt, ist CloudFront tief in das AWS-Ökosystem integriert, was bedeutet, dass es einfach ist, es mit anderen AWS-Diensten zu verwenden, und es ist auch einfach, mit CloudFront über die AWS-Managementkonsole, CLI (Command Line Interface) und SDKs (Software Development Kits) zu interagieren.
+
+Das sind nur einige der Funktionen von Amazon CloudFront. Es bietet auch Unterstützung für benutzerdefinierte SSL-Zertifikate, das Streaming von Live- und On-Demand-Videos, und es ist kompatibel mit mehreren Protokollen, einschließlich HTTP, HTTPS, RTMP und mehr.

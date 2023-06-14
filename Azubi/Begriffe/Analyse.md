@@ -33,4 +33,4 @@ In der Informatik und im Bereich Softwareentwicklung bezieht sich der Begriff Me
 
 ## Datadog
 
-Datadog ist ein Service, der Monitoringund Analysetools für IT-Infrastrukturen, Anwendungen und Logs bietet. Mit Datadog können Entwickler und Systemadministratoren Leistungsmetriken und Logs von Servern, Datenbanken und anderen Systemen erfassen und analysieren. Es hilft dabei, Probleme zu identifizieren und die Leistung und Stabilität von Systemen und Anwendungen zu verbessern. Es unterstützt eine breite Palette von Systemen und Diensten und bietet umfangreiche Visualisierungswerkzeuge, um Daten zu interpretieren und zu verstehen.
+Datadog ist ein Service, der Monitoring und Analysetools für IT-Infrastrukturen, Anwendungen und Logs bietet. Mit Datadog können Entwickler und Systemadministratoren Leistungsmetriken und Logs von Servern, Datenbanken und anderen Systemen erfassen und analysieren. Es hilft dabei, Probleme zu identifizieren und die Leistung und Stabilität von Systemen und Anwendungen zu verbessern. Es unterstützt eine breite Palette von Systemen und Diensten und bietet umfangreiche Visualisierungswerkzeuge, um Daten zu interpretieren und zu verstehen.
