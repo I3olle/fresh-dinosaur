@@ -38,12 +38,34 @@ Jira ist ein beliebtes Projektmanagement-Tool, das von Atlassian entwickelt wurd
 
 Im Kontext der Softwareentwicklung und des Projektmanagements sind Tickets Aufgaben oder Probleme, die gelöst werden müssen. Sie können verschiedene Formen annehmen, wie beispielsweise Fehlerberichte, Feature-Anfragen oder allgemeine Aufgaben. Jedes Ticket hat in der Regel einen Status, der seinen Fortschritt im Workflow anzeigt.
 
+### Epic
+
+Ein Epic ist eine große, umfassende User Story, die in kleinere Stories aufgeteilt werden kann. Epics repräsentieren oft große Funktionsbereiche oder Meilensteine innerhalb eines Projekts. Sie helfen dabei, komplexe Features in überschaubare Teile zu zerlegen und ermöglichen so eine schrittweise Umsetzung.
+
+### Story
+
+Eine Story, auch User Story genannt, ist eine kurze Beschreibung eines Features oder einer Funktionalität aus der Sicht des Benutzers. Sie beschreibt, was der Benutzer tun können soll und welchen Nutzen er daraus zieht. Stories werden oft auf Karten oder Tickets geschrieben und dienen als Anforderungen für das Entwicklungsteam.
+
+### Spike
+
+Ein Spike ist eine Aufgabe oder ein Ticket, das verwendet wird, um eine spezifische technische oder konzeptionelle Herausforderung zu untersuchen oder zu lösen. Es handelt sich normalerweise um eine zeitlich begrenzte Aktivität, die darauf abzielt, Wissen oder Erkenntnisse zu gewinnen, um eine bestimmte Aufgabe oder Story besser schätzen oder bewältigen zu können.
+
+### Bug
+
+Ein Bug ist ein Fehler oder eine Abweichung von der erwarteten Funktionalität in einer Software. Bugs können während des Entwicklungsprozesses oder nach der Auslieferung der Software auftreten. Das Finden und Beheben von Fehlern ist ein wichtiger Bestandteil des agilen Entwicklungsprozesses, um eine hohe Qualität der Software sicherzustellen.
+
+### Task
+
+Ein Task ist eine konkrete Aufgabe oder Arbeitseinheit, die zur Umsetzung einer Story oder eines Epics erforderlich ist. Tasks sind spezifisch, messbar und können einem Teammitglied zugewiesen werden. Sie dienen dazu, den Fortschritt und die Arbeitsteilung innerhalb des Teams zu verfolgen und zu organisieren.
+
+## Story Points
+
+Story Points sind eine relative Einheit zur Schätzung des Aufwands oder der Komplexität einer Story. Sie dienen dazu, den Umfang und die Schwierigkeit einer Aufgabe im Vergleich zu anderen Stories im Backlog zu bewerten. Das Team vergibt Story Points während der Schätzungsund Planungsphase, um den Aufwand und die Kapazität für jeden Sprint zu planen. Story Points sind keine absoluten Zeiteinheiten, sondern spiegeln das Verständnis des Teams für die Arbeit wider.
+
 ## Sprint
 
 Im agilen Projektmanagement, insbesondere in Scrum, ist ein Sprint ein kurzer, fester Zeitraum, in dem ein bestimmtes Set von Aufgaben abgeschlossen werden soll. Sprints dauern normalerweise zwei Wochen bis einen Monat.
 
-
 ## Swimlanes
 
 Swimlanes sind visuelle Elemente in einem Workflowoder Prozessdiagramm, die dazu dienen, verschiedene Aufgaben, Arbeitsabläufe oder Verantwortlichkeiten zu trennen. Sie sehen aus wie parallele Linien, die den Fluss von Arbeit repräsentieren, wobei jede Lane eine separate Kategorie repräsentiert. In einem Kanban-Board, zum Beispiel, könnten Swimlanes verschiedene Phasen des Workflows repräsentieren (z.B. "Zu tun", "In Arbeit", "Fertig").
-
