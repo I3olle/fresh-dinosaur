@@ -1,0 +1,1159 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Tools/">
+      
+      
+        <link rel="next" href="../Netzwerk/Protokolle/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.13">
+    
+    
+      
+        <title>Verwaltung - Azubi Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ffa9267a.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Ubuntu";--md-code-font:"Ubuntu Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#strukturierung" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Azubi Docs" class="md-header__button md-logo" aria-label="Azubi Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 20q-2.28 0-3.89-1.57Q1 16.85 1 14.58q0-1.95 1.17-3.48 1.18-1.53 3.08-1.95.63-2.3 2.5-3.72Q9.63 4 12 4q2.93 0 4.96 2.04Q19 8.07 19 11q1.73.2 2.86 1.5 1.14 1.28 1.14 3 0 1.88-1.31 3.19T18.5 20Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Azubi Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Verwaltung
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/I3olle/fresh-dinosaur" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    I3olle/fresh-dinosaur
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Azubi Docs" class="md-nav__button md-logo" aria-label="Azubi Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 20q-2.28 0-3.89-1.57Q1 16.85 1 14.58q0-1.95 1.17-3.48 1.18-1.53 3.08-1.95.63-2.3 2.5-3.72Q9.63 4 12 4q2.93 0 4.96 2.04Q19 8.07 19 11q1.73.2 2.86 1.5 1.14 1.28 1.14 3 0 1.88-1.31 3.19T18.5 20Z"/></svg>
+
+    </a>
+    Azubi Docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/I3olle/fresh-dinosaur" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    I3olle/fresh-dinosaur
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Einf%C3%BChrung/" class="md-nav__link">
+        Über Diese Seite
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Begriffe
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Begriffe
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Analyse/" class="md-nav__link">
+        Analyse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Arbeitsmethoden/" class="md-nav__link">
+        Arbeitsmethoden
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Architektur/" class="md-nav__link">
+        Architektur
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Cloud/" class="md-nav__link">
+        Cloud
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Datenbanken/" class="md-nav__link">
+        Datenbanken
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entwicklungsprozesse/" class="md-nav__link">
+        Entwicklungsprozesse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Git/" class="md-nav__link">
+        Git
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Jobs/" class="md-nav__link">
+        Jobs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Netzwerk/" class="md-nav__link">
+        Netzwerk
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Pipelines/" class="md-nav__link">
+        Pipelines
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprachen/" class="md-nav__link">
+        Sprachen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools/" class="md-nav__link">
+        Tools
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Verwaltung
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Verwaltung
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#strukturierung" class="md-nav__link">
+    Strukturierung
+  </a>
+  
+    <nav class="md-nav" aria-label="Strukturierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#organizational_units" class="md-nav__link">
+    Organizational Units:
+  </a>
+  
+    <nav class="md-nav" aria-label="Organizational Units:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eli5" class="md-nav__link">
+    ELI5
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authentifizierung" class="md-nav__link">
+    Authentifizierung
+  </a>
+  
+    <nav class="md-nav" aria-label="Authentifizierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sso" class="md-nav__link">
+    SSO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zwei-faktor-authentifizierung" class="md-nav__link">
+    Zwei-Faktor-Authentifizierung
+  </a>
+  
+    <nav class="md-nav" aria-label="Zwei-Faktor-Authentifizierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    Tools
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#okta" class="md-nav__link">
+    Okta
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_14" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_14" id="__nav_2_14_label" tabindex="0">
+          Netzwerk
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_14_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_14">
+          <span class="md-nav__icon md-icon"></span>
+          Netzwerk
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Netzwerk/Protokolle/" class="md-nav__link">
+        Protokolle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Netzwerk/Security/" class="md-nav__link">
+        Security
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Netzwerk/Unsortiert/" class="md-nav__link">
+        Unsortiert
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_15" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_15" id="__nav_2_15_label" tabindex="0">
+          Sprachen
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_15_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_15">
+          <span class="md-nav__icon md-icon"></span>
+          Sprachen
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprachen/Config/" class="md-nav__link">
+        Sprachen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprachen/Doku/" class="md-nav__link">
+        Dokusprachen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprachen/IaC/" class="md-nav__link">
+        IaC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprachen/Pattern/" class="md-nav__link">
+        Pattern
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprachen/Programmiersprachen/" class="md-nav__link">
+        Programmiersprachen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprachen/Skripte/" class="md-nav__link">
+        Skripte
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprachen/Sprachen/" class="md-nav__link">
+        Sprachen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprachen/Vergleiche/" class="md-nav__link">
+        Vergleiche
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Sprachen
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Sprachen
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprachen/Config/" class="md-nav__link">
+        Config
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprachen/Doku/" class="md-nav__link">
+        Doku
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprachen/IaC/" class="md-nav__link">
+        IaC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprachen/Pattern/" class="md-nav__link">
+        Pattern
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprachen/Programmiersprachen/" class="md-nav__link">
+        Programmiersprachen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprachen/Skriptsprachen/" class="md-nav__link">
+        Skriptsprachen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprachen/Vergleiche/" class="md-nav__link">
+        Vergleiche
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#strukturierung" class="md-nav__link">
+    Strukturierung
+  </a>
+  
+    <nav class="md-nav" aria-label="Strukturierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#organizational_units" class="md-nav__link">
+    Organizational Units:
+  </a>
+  
+    <nav class="md-nav" aria-label="Organizational Units:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eli5" class="md-nav__link">
+    ELI5
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authentifizierung" class="md-nav__link">
+    Authentifizierung
+  </a>
+  
+    <nav class="md-nav" aria-label="Authentifizierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sso" class="md-nav__link">
+    SSO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zwei-faktor-authentifizierung" class="md-nav__link">
+    Zwei-Faktor-Authentifizierung
+  </a>
+  
+    <nav class="md-nav" aria-label="Zwei-Faktor-Authentifizierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    Tools
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#okta" class="md-nav__link">
+    Okta
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Verwaltung</h1>
+
+<h3 id="strukturierung">Strukturierung<a class="headerlink" href="#strukturierung" title="Permanent link">#</a></h3>
+<h4 id="organizational_units">Organizational Units:<a class="headerlink" href="#organizational_units" title="Permanent link">#</a></h4>
+<p>Organisationseinheiten (auf Englisch "Organizational Units", abgekürzt OUs) sind ein Konzept aus der Verwaltung von Informationssystemen und werden oft in Verbindung mit Verzeichnisdiensten wie Microsoft's Active Directory (AD) oder dem Lightweight Directory Access Protocol (LDAP) verwendet.</p>
+<p>Eine Organisationseinheit ist im Grunde ein Container innerhalb des Verzeichnisdienstes, in dem Benutzer, Gruppen, Computer und andere Organisationseinheiten organisiert und gruppiert werden können. Diese Strukturierung ermöglicht eine einfachere Verwaltung von Ressourcen und Richtlinien innerhalb einer Organisation.</p>
+<p>Zum Beispiel könnte eine große Firma ihre Active Directory Struktur nach ihren Abteilungen organisieren, mit separaten Organisationseinheiten für die Personalabteilung, die IT-Abteilung, die Finanzabteilung und so weiter. Innerhalb jeder dieser Organisationseinheiten könnten dann Benutzer und Computer gruppiert werden, die spezifisch für diese Abteilung sind.</p>
+<p>Diese Organisationseinheiten können dann dazu verwendet werden, Sicherheitsund Zugriffsrichtlinien zu verwalten. In unserem vorherigen Beispiel könnte die IT-Abteilung spezielle Zugriffsrechte auf bestimmte Systeme haben, die den Benutzern in den anderen Organisationseinheiten nicht gewährt werden. Durch die Anwendung dieser Richtlinien auf die Organisationseinheit anstatt auf jeden einzelnen Benutzer kann die Verwaltung solcher Zugriffsrechte erheblich vereinfacht werden.</p>
+<h5 id="eli5">ELI5<a class="headerlink" href="#eli5" title="Permanent link">#</a></h5>
+<p>"Organisationseinheiten" klingt ziemlich kompliziert, nicht wahr? Lass uns das vereinfachen.</p>
+<p>Stell dir vor, du hast ein großes Spielzeughaus mit vielen verschiedenen Zimmern - es gibt ein Zimmer für die Küche, eines für das Wohnzimmer, eines für das Schlafzimmer und so weiter. In jedem Zimmer platzierst du verschiedene Spielzeuge, die zu diesem Raum passen - in der Küche befinden sich Spielzeugtöpfe und -pfannen, im Wohnzimmer ein Spielzeugfernseher und so weiter.</p>
+<p>In einem großen Unternehmen mit vielen Computern und Benutzern funktioniert es ähnlich. "Organisationseinheiten" sind wie die Zimmer im Spielzeughaus. Sie helfen dabei, alles ordentlich zu organisieren. Zum Beispiel gibt es eine "Organisationseinheit" für die Buchhaltung, eine für das Marketing, eine für die IT-Abteilung und so weiter. In jeder dieser "Einheiten" befinden sich die Computer und Benutzer, die zu dieser Abteilung gehören.</p>
+<p>Und genau wie du verschiedene Spielregeln für jedes Zimmer im Spielzeughaus haben könntest (zum Beispiel "In der Küche tun wir so, als ob wir kochen"), so kann das Unternehmen verschiedene Regeln für jede Organisationseinheit festlegen. Zum Beispiel könnte es Regeln geben, die besagen, dass nur Benutzer in der IT-Einheit Zugriff auf bestimmte Computerprogramme haben.</p>
+<p>Das macht alles viel einfacher zu verwalten!</p>
+<h3 id="authentifizierung">Authentifizierung<a class="headerlink" href="#authentifizierung" title="Permanent link">#</a></h3>
+<h4 id="sso">SSO<a class="headerlink" href="#sso" title="Permanent link">#</a></h4>
+<p>SSO steht für Single Sign-On und ist ein Authentifizierungsservice, der Benutzern erlaubt, mit nur einem Satz von Anmeldeinformationen auf mehrere Anwendungen zuzugreifen. Das bedeutet, dass ein Benutzer sich nur einmal anmelden muss, um auf mehrere verschiedene Dienste oder Anwendungen zugreifen zu können.</p>
+<p>SSO bietet eine Reihe von Vorteilen sowohl für die Benutzer als auch für die IT-Abteilung:</p>
+<ul>
+<li>Benutzerfreundlichkeit:<ul>
+<li>Da Benutzer sich nur einmal anmelden müssen, um auf alle ihre Anwendungen zuzugreifen, spart SSO ihnen die Zeit und den Aufwand, sich mehrere Benutzernamen und Passwörter zu merken und einzugeben.</li>
+</ul>
+</li>
+<li>Verbesserte Sicherheit:<ul>
+<li>SSO reduziert das Risiko von Angriffen auf Passwörter, da weniger Anmeldeinformationen im Umlauf sind. Darüber hinaus kann SSO mit zusätzlichen Sicherheitsmaßnahmen wie Zwei-Faktor-Authentifizierung und strengerer Passwortrichtlinie kombiniert werden.</li>
+</ul>
+</li>
+<li>Vereinfachtes Management:<ul>
+<li>Für IT-Abteilungen kann SSO das Management von Benutzerkonten und Zugriffsrechten vereinfachen. Beispielsweise muss bei einem Mitarbeiterwechsel nur ein einziges Konto deaktiviert werden, um den Zugriff auf alle Anwendungen zu sperren.</li>
+</ul>
+</li>
+</ul>
+<p>Ein bekanntes Beispiel für SSO ist Google. Wenn Sie sich bei Ihrem Google-Konto anmelden, haben Sie automatisch Zugriff auf verschiedene Dienste wie Gmail, Google Docs, YouTube und Google Photos ohne weitere Anmeldungen.</p>
+<p>Es gibt jedoch auch einige Nachteile oder Risiken bei der Verwendung von SSO. Ein Hauptanliegen ist, dass, wenn die Anmeldeinformationen eines Benutzers kompromittiert werden, der Angreifer potenziell Zugang zu allen Anwendungen und Diensten erhält, die der Benutzer verwendet. Dieses Risiko kann jedoch durch die Verwendung von zusätzlichen Sicherheitsmaßnahmen wie Zwei-Faktor-Authentifizierung gemildert werden.</p>
+<h4 id="zwei-faktor-authentifizierung">Zwei-Faktor-Authentifizierung<a class="headerlink" href="#zwei-faktor-authentifizierung" title="Permanent link">#</a></h4>
+<p>Die Zwei-Faktor-Authentifizierung (2FA) ist ein Sicherheitsverfahren, das eine zusätzliche Ebene der Überprüfung zur Identifizierung eines Benutzers hinzufügt. Sie basiert auf dem Prinzip, dass eine effektive Authentifizierung mindestens zwei von drei möglichen Authentifizierungsfaktoren erfordert: etwas, das man weiß (wie ein Passwort), etwas, das man hat (wie ein physischer Schlüssel oder ein Smartphone), oder etwas, das man ist (wie ein Fingerabdruck oder ein Gesichtsscan).</p>
+<p>Hier sind einige gängige Beispiele für 2FA:</p>
+<ul>
+<li><strong>SMS-Codes</strong>: Nachdem Sie Ihren Benutzernamen und Ihr Passwort eingegeben haben, sendet der Dienst eine SMS mit einem einmaligen Code an Ihr Handy. Sie müssen diesen Code eingeben, um den Anmeldevorgang abzuschließen.</li>
+<li><strong>Authenticator Apps</strong>: Apps wie Google Authenticator oder Authy generieren zeitlich begrenzte Codes auf Ihrem Handy, die Sie eingeben müssen, um sich anzumelden.</li>
+<li><strong>Physische Sicherheitsschlüssel</strong>: Ein Gerät, das Sie in den USB-Port Ihres Computers einstecken, das als zweiter Faktor dient. Um sich anzumelden, müssen Sie sowohl Ihr Passwort eingeben als auch den Schlüssel einstecken.</li>
+<li><strong>Biometrische Daten</strong>: Fingerprint-Scanner auf Handys oder Gesichtserkennungstechnologien können als zweiter Faktor dienen.</li>
+</ul>
+<p>Die Zwei-Faktor-Authentifizierung bietet erheblich mehr Sicherheit als die einfache Passwortauthentifizierung. Selbst wenn jemand Ihr Passwort kennt oder errät, können sie sich normalerweise nicht anmelden, ohne Zugang zum zweiten Faktor zu haben. Aus diesem Grund wird die Verwendung von 2FA für alle wichtigen Online-Konten dringend empfohlen.</p>
+<h5 id="tools">Tools<a class="headerlink" href="#tools" title="Permanent link">#</a></h5>
+<h6 id="okta">Okta<a class="headerlink" href="#okta" title="Permanent link">#</a></h6>
+<p>Okta ist ein führendes Unternehmen im Bereich der Identitätsund Zugriffsverwaltung. Sie bieten Cloud-basierte Softwarelösungen an, die Organisationen dabei unterstützen, die Identität und den Zugriff ihrer Mitarbeiter, Partner und Kunden zu verwalten.</p>
+<p>Die Produkte und Dienstleistungen von Okta umfassen:</p>
+<ul>
+<li><strong>Single Sign-On (SSO)</strong>:<ul>
+<li>Okta bietet eine SSO-Lösung, die es Benutzern ermöglicht, mit einer einzigen Anmeldung auf eine Vielzahl von Anwendungen zuzugreifen. Dies vereinfacht den Zugriff für Benutzer und kann die Sicherheit verbessern, indem weniger Passwörter im Umlauf sind.</li>
+</ul>
+</li>
+<li><strong>Multi-Faktor-Authentifizierung (MFA)</strong>:<ul>
+<li>Okta bietet MFA-Lösungen an, um die Sicherheit der Benutzerkonten zu erhöhen. Dies kann die Eingabe eines Codes umfassen, der an das Telefon des Benutzers gesendet wird, oder die Verwendung biometrischer Daten wie Fingerabdrücken.</li>
+</ul>
+</li>
+<li><strong>API-Zugriffsmanagement</strong>:<ul>
+<li>Okta ermöglicht es Entwicklern, die Identitätsüberprüfung in ihre Anwendungen und Dienste zu integrieren, indem es APIs und Entwicklertools bereitstellt.</li>
+</ul>
+</li>
+<li><strong>Lebenszyklusmanagement</strong>:<ul>
+<li>Okta unterstützt Organisationen dabei, die Konten ihrer Benutzer während ihres gesamten Lebenszyklus zu verwalten, von der Erstellung neuer Konten über die Änderung von Zugriffsrechten bis hin zur Deaktivierung von Konten, wenn ein Mitarbeiter das Unternehmen verlässt.</li>
+</ul>
+</li>
+</ul>
+<p>Okta zielt darauf ab, eine nahtlose und sichere Benutzererfahrung zu bieten, indem es den Zugriff auf Anwendungen und Dienste über Geräte und Standorte hinweg vereinfacht und gleichzeitig hohe Sicherheitsstandards aufrechterhält. Die Lösungen von Okta sind in vielen Branchen weit verbreitet, darunter Technologie, Bildung, Gesundheitswesen und Finanzen.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs", "navigation.expand", "navigation.sections"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.2a6f1dda.min.js"></script>
+      
+    
+  </body>
+</html>
