@@ -2,7 +2,7 @@
 share: true
 ---
 
-# Datenbanken
+## Was Sind Datenbanken?
 
 Datenbanken sind wie große und organisierte Datensammlungen, in denen Informationen gespeichert und abgerufen werden können. Stell sie dir wie eine strukturierte Speicherplatz vor, in dem Daten effizient gespeichert und verwaltet werden können.
 
