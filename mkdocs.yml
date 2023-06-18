@@ -1,5 +1,6 @@
 site_name: Azubi Docs
-site_url: https://127.0.0.1:8000/
+repo_name: 'I3olle/fresh-dinosaur'
+repo_url: 'https://github.com/I3olle/fresh-dinosaur'
 theme:
   features:
     - tabs
