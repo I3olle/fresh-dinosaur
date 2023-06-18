@@ -2,9 +2,9 @@
 share: true
 ---
 
-# Strukturierung
+## Strukturierung
 
-## Organizational Units:
+### Organizational Units:
 
 Organisationseinheiten (auf Englisch "Organizational Units", abgekürzt OUs) sind ein Konzept aus der Verwaltung von Informationssystemen und werden oft in Verbindung mit Verzeichnisdiensten wie Microsoft's Active Directory (AD) oder dem Lightweight Directory Access Protocol (LDAP) verwendet.
 
@@ -14,7 +14,7 @@ Zum Beispiel könnte eine große Firma ihre Active Directory Struktur nach ihren
 
 Diese Organisationseinheiten können dann dazu verwendet werden, Sicherheitsund Zugriffsrichtlinien zu verwalten. In unserem vorherigen Beispiel könnte die IT-Abteilung spezielle Zugriffsrechte auf bestimmte Systeme haben, die den Benutzern in den anderen Organisationseinheiten nicht gewährt werden. Durch die Anwendung dieser Richtlinien auf die Organisationseinheit anstatt auf jeden einzelnen Benutzer kann die Verwaltung solcher Zugriffsrechte erheblich vereinfacht werden.
 
-### ELI5
+#### ELI5
 
 "Organisationseinheiten" klingt ziemlich kompliziert, nicht wahr? Lass uns das vereinfachen.
 
@@ -26,9 +26,9 @@ Und genau wie du verschiedene Spielregeln für jedes Zimmer im Spielzeughaus hab
 
 Das macht alles viel einfacher zu verwalten!
 
-# Authentifizierung
+## Authentifizierung
 
-## SSO
+### SSO
 
 SSO steht für Single Sign-On und ist ein Authentifizierungsservice, der Benutzern erlaubt, mit nur einem Satz von Anmeldeinformationen auf mehrere Anwendungen zuzugreifen. Das bedeutet, dass ein Benutzer sich nur einmal anmelden muss, um auf mehrere verschiedene Dienste oder Anwendungen zugreifen zu können.
 
@@ -45,7 +45,7 @@ Ein bekanntes Beispiel für SSO ist Google. Wenn Sie sich bei Ihrem Google-Konto
 
 Es gibt jedoch auch einige Nachteile oder Risiken bei der Verwendung von SSO. Ein Hauptanliegen ist, dass, wenn die Anmeldeinformationen eines Benutzers kompromittiert werden, der Angreifer potenziell Zugang zu allen Anwendungen und Diensten erhält, die der Benutzer verwendet. Dieses Risiko kann jedoch durch die Verwendung von zusätzlichen Sicherheitsmaßnahmen wie Zwei-Faktor-Authentifizierung gemildert werden.
 
-## Zwei-Faktor-Authentifizierung
+### Zwei-Faktor-Authentifizierung
 
 Die Zwei-Faktor-Authentifizierung (2FA) ist ein Sicherheitsverfahren, das eine zusätzliche Ebene der Überprüfung zur Identifizierung eines Benutzers hinzufügt. Sie basiert auf dem Prinzip, dass eine effektive Authentifizierung mindestens zwei von drei möglichen Authentifizierungsfaktoren erfordert: etwas, das man weiß (wie ein Passwort), etwas, das man hat (wie ein physischer Schlüssel oder ein Smartphone), oder etwas, das man ist (wie ein Fingerabdruck oder ein Gesichtsscan).
 
@@ -58,9 +58,9 @@ Hier sind einige gängige Beispiele für 2FA:
 
 Die Zwei-Faktor-Authentifizierung bietet erheblich mehr Sicherheit als die einfache Passwortauthentifizierung. Selbst wenn jemand Ihr Passwort kennt oder errät, können sie sich normalerweise nicht anmelden, ohne Zugang zum zweiten Faktor zu haben. Aus diesem Grund wird die Verwendung von 2FA für alle wichtigen Online-Konten dringend empfohlen.
 
-### Tools
+#### Tools
 
-#### Okta
+##### Okta
 
 Okta ist ein führendes Unternehmen im Bereich der Identitätsund Zugriffsverwaltung. Sie bieten Cloud-basierte Softwarelösungen an, die Organisationen dabei unterstützen, die Identität und den Zugriff ihrer Mitarbeiter, Partner und Kunden zu verwalten.
 
