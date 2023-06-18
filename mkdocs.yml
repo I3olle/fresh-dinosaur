@@ -1,4 +1,7 @@
 site_name: Azubi Docs
+site_description: Azubi Docs
+site_author: I3olle
+site_url: https://i3olle.github.io/fresh-dinosaur/
 repo_name: 'I3olle/fresh-dinosaur'
 repo_url: 'https://github.com/I3olle/fresh-dinosaur'
 theme:
@@ -17,7 +20,6 @@ theme:
   palette:
     scheme: slate
     primary: teal
-  locale: de
 docs_dir: Azubi
 
 markdown_extensions:
