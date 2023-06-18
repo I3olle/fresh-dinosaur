@@ -2,7 +2,7 @@
 share: true
 ---
 
-# Jobs
+Es gibt in der IT verschiedenste Bezeichnungen für Rollen und Jobs. Hier sind einige davon.
 
 ## DevOps
 
