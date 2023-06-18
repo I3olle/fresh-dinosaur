@@ -2,11 +2,11 @@
 share: true
 ---
 
-# Git
+## Was Ist Git?
 
 Git ist ein Versionskontrollsystem, das entwickelt wurde, um die Verwaltung von Änderungen in Softwareprojekten zu erleichtern. Es ermöglicht Entwicklern, ihre Arbeit zu verfolgen, Änderungen zu verwalten und effektiv mit anderen zusammenzuarbeiten.
 
-## ELI5
+### ELI5
 
 Stell dir vor, du malst ein Bild auf einem Blatt Papier. Aber du möchtest nicht nur das fertige Bild behalten, sondern auch den gesamten Entstehungsprozess aufzeichnen, um später Änderungen vornehmen oder auf ältere Versionen zurückgreifen zu können. Hier kommt Git ins Spiel.
 

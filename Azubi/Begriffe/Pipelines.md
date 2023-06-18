@@ -2,8 +2,6 @@
 share: true
 ---
 
-# Pipelines
-
 ## Das Konzept Pipeline
 
 In der Softwareentwicklung ist eine Pipeline wie eine Fließbandproduktion für den Code. Stell dir vor, du hast ein Team von Entwicklern, die an einer Anwendung arbeiten. Jeder Entwickler hat seinen eigenen Aufgabenbereich, und der Code muss von einem Schritt zum nächsten übergehen, um letztendlich in der fertigen Anwendung zu landen.
@@ -39,4 +37,4 @@ Einige der Vorteile von AWS Step Functions sind:
 
 Ein häufiges Anwendungsbeispiel für Step Functions ist die Koordination von Microservices. Da moderne Anwendungen oft aus vielen kleineren, unabhängigen Diensten bestehen, können Step Functions dazu verwendet werden, diese Dienste zu orchestrieren und sicherzustellen, dass sie in der richtigen Reihenfolge und unter den richtigen Bedingungen ausgeführt werden.
 
-![Pasted image 20230611150505.png](../../docs/images/Pasted%20image%2020230611150505.png#)
+![Pasted image 20230611150505.png](../static/Pasted%20image%2020230611150505.png#)
