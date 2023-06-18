@@ -32,6 +32,6 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - toc:
-    permalink: "#"
-    baselevel: 2
-    separator: "_"
+      permalink: "#"
+      baselevel: 2
+      separator: "_"
