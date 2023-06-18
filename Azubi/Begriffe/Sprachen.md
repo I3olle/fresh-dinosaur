@@ -13,10 +13,3 @@ Die Wahl der Programmiersprache hängt oft von den spezifischen Anforderungen de
 Es ist wichtig zu beachten, dass das Erlernen und Beherrschen einer Programmiersprache Zeit und Übung erfordert. Jede Sprache hat ihre eigenen Konzepte, Paradigmen und Best Practices, die verstanden werden müssen, um effizienten und qualitativ hochwertigen Code zu schreiben. Daher ist es oft hilfreich, sich auf eine oder mehrere Sprachen zu spezialisieren, die den eigenen Bedürfnissen und Zielen am besten entsprechen.
 
 Insgesamt bieten die unterschiedlichen Programmiersprachen in der IT eine breite Palette an Möglichkeiten, um Software zu entwickeln und Aufgaben zu automatisieren. Durch die Auswahl der richtigen Sprache für eine spezifische Anforderung können Entwickler ihre Produktivität steigern, effiziente Lösungen entwickeln und die gewünschten Ergebnisse erzielen.
-
-## Unterseiten
-
-- [Config](../Sprachen/Config.md#)
-- [Doku](../Sprachen/Doku.md#)
-- [IaC](../Sprachen/IaC.md#)
-- [Vergleiche](../Sprachen/Vergleiche.md#)
