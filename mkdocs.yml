@@ -1,0 +1,37 @@
+site_name: Azubi Docs
+site_url: https://127.0.0.1:8000/
+theme:
+  features:
+    - tabs
+    - navigation.expand
+    - navigation.sections
+    
+  name: material
+  icon:
+    logo: material/cloud
+  font:
+    text: Ubuntu
+    code: Ubuntu Mono
+  static_templates:
+    - 404.html
+  palette:
+    scheme: slate
+    primary: teal
+docs_dir: Azubi
+locale: de
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+        permalink: "#"
+        baselevel: 2
+        separator: "_"
